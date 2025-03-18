@@ -1,5 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+
+        int temperatureValue;
+        String temperature;
+        System.out.println("Please enter the temperature t= ");
+        Scanner scanner = new Scanner(System.in);
+        temperatureValue = scanner.nextInt();
+
     }
 }
